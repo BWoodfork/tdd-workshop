@@ -1,13 +1,10 @@
-const calculate = require("./fizz-buzz-calculator")
+const calculator = require("./fizz-buzz-calculator")
 
 function run() {
   const numberRange = [...Array(100).keys()]
+  const result = calculator.calculateAllNumbers(numberRange)
 
-  numberRange.map(num => {
-    const result = calculate(num)
-
-    console.log(result)
-  })
+  console.log(result)
 }
 
 run()
