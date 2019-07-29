@@ -1,6 +1,4 @@
-const calculator = require("../src/fizz-buzz-calculator")
-// const calculate = require('../src/fizz-buzz-calculator');
-// const calculateAllNumbers = require('../src/fizz-buzz-calculator');
+const calculator = require("../../src/solution/fizz-buzz-calculator")
 
 // "Write a program that returns the numbers from 1 to 100. 
 // But for multiples of three returns “Fizz” instead of the number

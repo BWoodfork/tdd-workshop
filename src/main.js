@@ -1,4 +1,4 @@
-const calculator = require("./fizz-buzz-calculator")
+const calculator = require("./solution/fizz-buzz-calculator")
 
 function run() {
   const numberRange = [...Array(100).keys()]
