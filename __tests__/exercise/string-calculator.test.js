@@ -1,0 +1,1 @@
+const stringCalculator = require("../../src/exercise/string-calculator")
